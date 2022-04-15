@@ -16,7 +16,7 @@ The arguments used in the functions:
 - A: the coefficient matrix.
 - b: the matrix with the independent term of each equation.
 - x_0: a matrix with inicial values so that the iteration can start.
-- E: the tolerance of the difference norm: $/norm(x_k - x_{k-1})$.
+- E: the tolerance of the difference norm between x(k) and x(k-1).
 - M: The maximum of iterations for the function to stop.
 - tipo_norm: the type of norm desirable for the functions (Suggested: 1, 2 our %inf)
 
